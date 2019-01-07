@@ -1,32 +1,104 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+  align-content: stretch;
+  
+  background-color: white;
+  /* border: 4px solid black; */
+  height: 100vh;
+  width: 100vw;
+}
+
+.Header {
+  display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+  
+  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 1600px 1000px;
+  /* background-color:lightgrey; */
+  /* border: 4px solid black; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.Nav_Header {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+  
+  /* border: 4px solid black; */
+  width: 98vw;
+  height: 8vh;
+  margin-top: 1%;
+}
+
+.Nav_Logo {
+  /* border: 4px solid white; */
+  width: 15vw;
+  height: 5vh;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.Logo_Text {
+  color: rgb(254, 207, 47);
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.Nav_Links {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+  
+  /* border: 4px solid white; */
+  width: 40vw;
+  height: 5vh;
+  margin-top: 3%;
+}
+
+.Link_Text {
   color: white;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14.4px;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #61dafb;
+.Content_Header {
+  display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 14%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Welcome_Text {
+  color: white;
+  display: block;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.Message_Text {
+  color: white;
+  display: block;
+  font-size: 75px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  /* line-height: 10px;   */
+  margin-top: 0;
 }
